@@ -37,9 +37,13 @@ lspconfig.gopls.setup {
     gopls = {
       analyses = {
         unusedparams = true,
-        shadow = true,
       },
       staticcheck = true,
+      gofumpt = true,
+      completeUnimported = true,
+      usePlaceholders = true,
     },
   },
+  cmd = { "gopls" },
+  filetypes = { "go", "gomod", "gowork", "gotmpl" },
 }

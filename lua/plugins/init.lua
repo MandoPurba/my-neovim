@@ -36,7 +36,6 @@ return {
         "rustfmt",
         "clippy",
         "deno",
-        "golangci-lint",
         "gopls",
       }
     }
