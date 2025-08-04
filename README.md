@@ -1,6 +1,6 @@
 # My Neovim Configuration
 
-A modern, efficient Neovim configuration built on top of [NvChad](https://nvchad.com/), optimized for Rust, Gleam, TypeScript/JavaScript, and general development work.
+A modern, efficient Neovim configuration built on top of [NvChad](https://nvchad.com/), optimized for Rust, Go, Gleam, TypeScript/JavaScript, and general development work.
 
 ## ✨ Features
 
@@ -27,6 +27,11 @@ A modern, efficient Neovim configuration built on top of [NvChad](https://nvchad
 - **Formatting**: rustfmt
 - **Debugging**: codelldb support
 - **Features**: All Cargo features enabled, proc macros supported
+
+### Go
+- **LSP**: gopls with advanced analysis
+- **Linting**: golangci-lint integration
+- **Features**: Unused parameter detection, shadow analysis, staticcheck enabled
 
 ### Gleam
 - **LSP**: Native Gleam language server
@@ -109,11 +114,13 @@ This configuration inherits all default NvChad mappings. Key highlights:
 - **codelldb** - Debugger for Rust and C++
 - **rustfmt** - Rust formatter
 - **clippy** - Rust linter
+- **gopls** - Go language server
+- **golangci-lint** - Go linter and analyzer
 - **deno** - TypeScript/JavaScript runtime and LSP
 
 ### Treesitter Parsers
 - vim, lua, vimdoc
-- gleam, rust
+- gleam, rust, go
 - typescript, javascript, json
 
 ## 🎯 Customization
@@ -166,7 +173,7 @@ Run `:checkhealth` to diagnose configuration issues.
 
 ## 📸 Screenshots
 
-*![alt text](image.png)*
+*Add screenshots of your configuration in action here*
 
 ## 🤝 Contributing
 
