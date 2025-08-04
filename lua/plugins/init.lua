@@ -39,5 +39,11 @@ return {
         "gopls",
       }
     }
+  },
+
+  -- GitHub Copilot
+  {
+    "github/copilot.vim",
+    lazy = false,  -- Load immediately
   }
 }
