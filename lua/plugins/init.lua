@@ -22,6 +22,7 @@ return {
   		ensure_installed = {
   			"vim", "lua", "vimdoc",
         "gleam", "rust", "typescript", "javascript", "json",
+        "go"
   		},
   	},
   },
@@ -35,6 +36,8 @@ return {
         "rustfmt",
         "clippy",
         "deno",
+        "golangci-lint",
+        "gopls",
       }
     }
   }

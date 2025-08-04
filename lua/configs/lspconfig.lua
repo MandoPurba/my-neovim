@@ -31,3 +31,15 @@ lspconfig.denols.setup {
     unstable = true,
   },
 }
+
+lspconfig.gopls.setup {
+  settings = {
+    gopls = {
+      analyses = {
+        unusedparams = true,
+        shadow = true,
+      },
+      staticcheck = true,
+    },
+  },
+}

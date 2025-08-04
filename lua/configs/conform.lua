@@ -7,6 +7,7 @@ local options = {
     jsonc = { "deno_fmt" },
     rust = { "rustfmt" },
     gleam = { "gleam_fmt" },
+    go = { "gofmt", "goimports" },
 
   },
 
